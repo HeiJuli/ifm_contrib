@@ -48,7 +48,9 @@ class Mesh:
                          'auxTriangleMaxAngles']
 
         aux_N_strings = ['auxSliceDistance',
-                         'auxNodalDepth']
+                         'auxNodalDepth',
+                         'auxFluidDensity', 
+                         'auxFluidViscosity']
 
         # check for existence - elemental
         elemental_avail = []
